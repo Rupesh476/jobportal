@@ -5,7 +5,6 @@ import { PersistGate } from 'redux-persist/integration/react';
 import store, { persistor } from './redux/store';
 import App from './App';
 import './index.css';
-import './styles.css'; 
 import { Toaster } from 'sonner';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
