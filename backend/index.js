@@ -14,13 +14,9 @@ const app = express();
 app.use(express.json())
 app.use(express.urlencoded({extended:true}));
 const corsOptions = {
-<<<<<<< HEAD
-    origin:'https://jobportal-mksi.onrender.com/',
-=======
     origin:['http://localhost:5173',
         'https://jobportal-mksi.onrender.com'
     ],
->>>>>>> cb995ce (Update backend and frontend logic)
     credentials:true
 }
 
